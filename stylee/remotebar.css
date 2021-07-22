@@ -1,17 +1,51 @@
-#maintitle {
-    color: brown;
-}
 
 .remotebar {
+    text-align: center;
     background-color: rgb(100, 68, 21);
     width: 100%;
+    height: 120px;
+    position: fixed;
+}
+
+.remotebar div {
+    position: relative;
+    margin-top: 80px;
+    background-color: burlywood;
+    width: 18.8%;
     height: 30px;
+    float: left;
+    margin-left: 5px;
+}
+
+.remotebar div a {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: None;
+    color: wheat;
+    font-weight: bold;
 }
 
 .info_web {
-    
+    position: fixed;
+    background-color: antiquewhite;
+    bottom: 2px;
+    width: 100%;
+    height: 45px;
+    text-align: center;
 }
 
 body {
-    background-color: brown;
+    height: 90vh;
+}
+
+#indeximage {
+    width: 100%;
+    height: 80vh;
+    margin-top: 102px;
+}
+
+#maintitle {
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    top: 0px;
 }
