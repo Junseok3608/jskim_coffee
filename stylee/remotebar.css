@@ -1,18 +1,18 @@
-
 .remotebar {
     text-align: center;
     background-color: rgb(100, 68, 21);
     width: 100%;
-    height: 120px;
+    height: 60px;
     position: fixed;
+    top: 70px;
 }
 
 .remotebar div {
     position: relative;
-    margin-top: 80px;
+    margin-top: 5px;
     background-color: burlywood;
     width: 18.8%;
-    height: 30px;
+    height: 50px;
     float: left;
     margin-left: 5px;
 }
@@ -22,6 +22,7 @@
     text-decoration: None;
     color: wheat;
     font-weight: bold;
+    font-size: 40px;
 }
 
 .info_web {
@@ -40,12 +41,18 @@ body {
 #indeximage {
     width: 100%;
     height: 80vh;
-    margin-top: 102px;
+    margin-top: 75px;
 }
 
 #maintitle {
     width: 100%;
     height: 70px;
-    background-color: red;
+    background-color: rgb(122, 79, 13);
     top: 0px;
+    position: fixed;
+}
+
+#maintitle a {
+    text-decoration: None;
+    color: beige;
 }
